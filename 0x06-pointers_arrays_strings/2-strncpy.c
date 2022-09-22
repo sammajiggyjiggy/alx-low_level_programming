@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strncpy - copy a string stsarting from inbox 0 of 'dest'.
+ * _strncpy - Copy a string starting from inbox 0 of 'dest'.
  * @dest: string
- * src: string
+ * @src: string
  * @n: number of chars to copy over
  * Return: 'dest' edited string
  */
