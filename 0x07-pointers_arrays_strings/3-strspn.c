@@ -3,7 +3,7 @@
  * _strspn - search the number of bytes in the initial
  * segment of s which consist only of bytes from accept
  * @s: segment targeted
- * @accpted: reference bytes container
+ * @accept: reference bytes container
  *
  * Return:returns the number of the bytes in the initial
  * segment of s which consist only of bytes from accept
