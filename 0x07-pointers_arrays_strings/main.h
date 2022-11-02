@@ -1,6 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+#include <stddef.h>
+#include <stdio.h>
+/**
+ * void prototypes(void)
+ * int prototypes(int)
+ * char prototypes(char)
+ */
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
@@ -11,5 +17,4 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 int _putchar(char c);
-
-#endif
+#endif /* MAIN.H */
